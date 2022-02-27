@@ -16,10 +16,10 @@
     <title>Widget</title>
 </head>
 <body>
-  
-<!-- TradingView Widget BEGIN -->
+  <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
   {
   "symbols": [
@@ -44,18 +44,42 @@
       "proName": "XETR:0JHC"
     },
     {
+      "description": "MDAX",
+      "proName": "XETR:MDAX"
+    },
+    {
+      "description": "EURO STOXX 50",
+      "proName": "CURRENCYCOM:EU50"
+    },
+    {
       "description": "EUR/USD",
       "proName": "OANDA:EURUSD"
+    },
+    {
+      "description": "EUR/GBP",
+      "proName": "OANDA:EURGBP"
+    },
+    {
+      "description": "EUR/RUB",
+      "proName": "FOREXCOM:EURRUB"
+    },
+    {
+      "description": "BTC/USD",
+      "proName": "COINBASE:BTCUSD"
+    },
+    {
+      "description": "ETH/USD",
+      "proName": "COINBASE:ETHUSD"
     }
   ],
   "showSymbolLogo": false,
   "colorTheme": "dark",
   "isTransparent": true,
-  "displayMode": "adaptive",
+  "displayMode": "compact",
   "locale": "en"
 }
   </script>
 </div>
-<!-- TradingView Widget END -->  
+<!-- TradingView Widget END --> 
 </body>
 </html>
